@@ -1,0 +1,11 @@
+name: retail_lakehouse_analytics
+version: "1.0.0"
+
+profile: retail_lakehouse_analytics
+
+model-paths: ["models"]
+
+models:
+  retail_lakehouse_analytics:
+    gold:
+      +materialized: table

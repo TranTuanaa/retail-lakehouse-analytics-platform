@@ -1,0 +1,6 @@
+customer_id,customer_name,email,city,created_at
+C001,Nguyen Van An,an.nguyen@example.com,Ho Chi Minh City,2025-01-05
+C002,Tran Thi Binh,binh.tran@example.com,Ha Noi,2025-01-12
+C003,Le Minh Chau,chau.le@example.com,Da Nang,2025-02-03
+C004,Pham Quoc Duy,duy.pham@example.com,Can Tho,2025-02-20
+C005,Hoang Thu Ha,ha.hoang@example.com,Hai Phong,2025-03-01

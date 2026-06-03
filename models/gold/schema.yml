@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "Customer dimension table."
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_products
+    description: "Product dimension table."
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_stores
+    description: "Store dimension table."
+    columns:
+      - name: store_id
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_sales
+    description: "Sales fact table containing completed order items."
+    columns:
+      - name: order_item_id
+        tests:
+          - not_null
+          - unique
+
+      - name: order_id
+        tests:
+          - not_null
+
+      - name: product_id
+        tests:
+          - not_null
+
+      - name: sales_amount
+        tests:
+          - not_null

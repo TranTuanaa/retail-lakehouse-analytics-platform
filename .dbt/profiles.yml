@@ -1,0 +1,7 @@
+retail_lakehouse_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: data/gold/retail_lakehouse.duckdb
+      threads: 4

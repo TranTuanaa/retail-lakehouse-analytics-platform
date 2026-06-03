@@ -1,0 +1,4 @@
+store_id,store_name,city,region,opened_at
+S001,Central Store,Ho Chi Minh City,South,2024-06-01
+S002,Ha Noi Branch,Ha Noi,North,2024-07-15
+S003,Da Nang Branch,Da Nang,Central,2024-09-10

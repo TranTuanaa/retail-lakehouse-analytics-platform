@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# dbt generated files
+target/
+dbt_packages/
+.dbt/.user.yml
+
+# Local generated data
+data/bronze/
+data/silver/
+data/gold/
+data/metadata/*
+!data/metadata/orders_state.example.json
+
+# Spark temporary files
+.spark-warehouse/
+metastore_db/
+derby.log
+
+# Airflow local files
+airflow/logs/
+airflow/plugins/
+airflow/airflow.db
+airflow/webserver_config.py

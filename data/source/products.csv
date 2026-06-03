@@ -1,0 +1,6 @@
+product_id,product_name,category,unit_price,created_at
+P001,Wireless Mouse,Electronics,250000,2025-01-01
+P002,Mechanical Keyboard,Electronics,1200000,2025-01-01
+P003,Office Chair,Furniture,1800000,2025-01-10
+P004,Notebook,Stationery,35000,2025-01-15
+P005,Water Bottle,Accessories,150000,2025-02-01

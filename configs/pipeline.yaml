@@ -1,0 +1,23 @@
+pipeline:
+  name: retail_lakehouse_pipeline
+  mode: local
+  batch_id: "2025-03-04"
+  lookback_days: 2
+
+source:
+  format: csv
+  path: data/source
+
+bronze:
+  format: parquet
+  path: data/bronze
+
+silver:
+  format: parquet
+  path: data/silver
+
+gold:
+  path: data/gold
+
+metadata:
+  path: data/metadata
