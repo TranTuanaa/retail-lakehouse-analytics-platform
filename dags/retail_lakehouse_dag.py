@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from airflow import DAG # type: ignore
-from airflow.operators.bash import BashOperator # type: ignore
+from airflow import DAG 
+from airflow.operators.bash import BashOperator 
 
 
 with DAG(
@@ -58,4 +58,4 @@ with DAG(
         bash_command="cd /app && python notebooks/check_gold_tables.py",
     )
 
-    ingest_bronze >> transform_silver >> check_silver >> run_dbt_gold >> test_dbt_gold >> check_gold # type: ignore
+    ingest_bronze >> transform_silver >> check_silver >> run_dbt_gold >> test_dbt_gold >> check_gold 

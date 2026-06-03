@@ -5,7 +5,7 @@ models:
     description: "Customer dimension table."
     columns:
       - name: customer_id
-        tests:
+        data_tests:
           - not_null
           - unique
 
@@ -13,7 +13,7 @@ models:
     description: "Product dimension table."
     columns:
       - name: product_id
-        tests:
+        data_tests:
           - not_null
           - unique
 
@@ -21,7 +21,7 @@ models:
     description: "Store dimension table."
     columns:
       - name: store_id
-        tests:
+        data_tests:
           - not_null
           - unique
 
@@ -29,18 +29,18 @@ models:
     description: "Sales fact table containing completed order items."
     columns:
       - name: order_item_id
-        tests:
+        data_tests:
           - not_null
           - unique
 
       - name: order_id
-        tests:
+        data_tests:
           - not_null
 
       - name: product_id
-        tests:
+        data_tests:
           - not_null
 
       - name: sales_amount
-        tests:
+        data_tests:
           - not_null
