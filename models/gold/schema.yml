@@ -42,5 +42,5 @@ models:
           - not_null
 
       - name: sales_amount
-        data_tests:
+        data_ tests:
           - not_null
